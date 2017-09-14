@@ -1,0 +1,227 @@
+body, html{
+    margin:0;
+    padding:0;
+    background-color: #2f2f2f;
+    height: 100%;
+}
+
+.wrapper{
+    min-height:100%;
+    position:relative;
+}
+.content {
+ padding-bottom:60px;   /* Height of the footer */
+}
+
+
+
+
+
+
+
+
+
+/*footer css*/
+
+.company-link{
+    color: #848484;
+}
+
+.company-link:hover{
+    color: #ABB7B7;
+    text-decoration: none;
+}
+
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   padding: 25px 10px;
+   background-color: #0f0f0f;
+   text-align: center;
+   color: #4f4f4f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*navbar css*/
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial;
+}
+
+.topnav .home{
+    float: left;
+    display: block;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+
+.dropmenu .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 24px 16px;
+    background-color: inherit;
+}
+
+.topnav > div {
+    float: left;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.dropmenu{
+    float: left;
+    overflow: hidden;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .topnav > div:hover, .dropmenu:hover .dropbtn {
+    background-color: white;
+    color: black;
+}
+
+.dropmenu:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Navbar responsive*/
+
+
+@media screen and (max-width: 1000px) {
+
+    .topnav div:not(:first-child) {
+        display: none;
+    }
+
+    .topnav div.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav a {
+        padding: 15px 16px;
+        font-size: 14px; 
+    }
+
+    .dropmenu .dropbtn {
+        padding: 20px 16px;
+    }
+
+    .topnav .home{
+        padding: 12px 15px;
+    }
+
+    .topnav .burger{
+        padding: 20px 15px;
+        font-size: 20px; 
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive div.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive > div {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        background-color: inherit;
+        min-width: 160px;
+        box-shadow: none;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        padding-left: 35px;
+    }
+
+    .submenu {
+        display: block !important;
+    }
+
+    .dropmenu:hover .dropdown-content {
+        display: none;
+    }
+
+    .topnav a:hover, .topnav > div:hover, .dropmenu:hover .dropbtn {
+        background-color: inherit;
+        color: #81CFE0;
+    }
+
+}
