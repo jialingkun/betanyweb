@@ -1,6 +1,10 @@
-<?php include 'header.php';?>
+<?php include 'part/header.php';?>
 
 <style>
+	.carousel-inner{
+		background-color: black;
+	}
+	
 	.carousel-inner > .item > img {
 		margin: 0 auto;
 	}
@@ -17,21 +21,21 @@
 	</ol>
 
 	<!-- Wrapper for slides -->
-	<div class="carousel-inner" style="background-color: black;">
+	<div class="carousel-inner">
 		<div class="item active">
-			<img src="slider1.jpg" alt="Welcome">
+			<img src="img/slider1.jpg" alt="Welcome">
 		</div>
 
 		<div class="item">
-			<img src="slider2.jpg" alt="Welcome">
+			<img src="img/slider2.jpg" alt="Welcome">
 		</div>
 
 		<div class="item">
-			<img src="slider3.jpg" alt="Welcome">
+			<img src="img/slider3.jpg" alt="Welcome">
 		</div>
 
 		<div class="item">
-			<img src="slider4.jpg" alt="Welcome">
+			<img src="img/slider4.jpg" alt="Welcome">
 		</div>
 	</div>
 
@@ -46,4 +50,7 @@
 	</a>
 </div>
 
-<?php include 'footer.php';?>
+
+
+
+<?php include 'part/footer.php';?>

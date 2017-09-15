@@ -1,7 +1,11 @@
+
+/*global css*/
+
 body, html{
     margin:0;
     padding:0;
     background-color: #2f2f2f;
+    color: white;
     height: 100%;
 }
 
@@ -10,10 +14,46 @@ body, html{
     position:relative;
 }
 .content {
- padding-bottom:60px;   /* Height of the footer */
+ padding-bottom:60px;
 }
 
+.container{
+    margin-top: 10px;
+    margin-bottom:100px;
+}
 
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #81CFE0;
+}
+
+.title{
+    padding: 2% 0;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 1000px){
+    .center-responsive{
+        text-align: center;
+        margin: auto;
+    }
+
+    .title h1{
+        font-size: 30px;
+    }
+
+    .center img{
+    width: 100%;
+}
+}
 
 
 
@@ -41,18 +81,6 @@ body, html{
    text-align: center;
    color: #4f4f4f;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -149,7 +177,6 @@ body, html{
 
 
 /*Navbar responsive*/
-
 
 @media screen and (max-width: 1000px) {
 
