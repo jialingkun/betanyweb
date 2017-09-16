@@ -25,7 +25,7 @@
 	}
 
 
-	@media screen and (max-width: 750px) {
+	@media screen and (max-width: 990px) {
 		.title img{
 			width: 100%;
 			height: auto;
@@ -93,9 +93,6 @@
 
 
 	</div>
-
-
-
 
 </div>
 

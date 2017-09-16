@@ -45,6 +45,15 @@
 				x.className = "dropdown-content";
 			}
 		}
+
+		function clickQuickLinkTab() {
+			var x = document.getElementById("quicklinktab");
+			if (x.className === "sidenav") {
+				x.className += " responsive";
+			} else {
+				x.className = "sidenav";
+			}
+		}
 	</script>
 
 	<!-- wraper opening div -->
@@ -58,16 +67,16 @@
 
 
 		<div class="topnav" id="myTopnav">
-			<div><a class="home" href="index.php"><img src="img/navbarLogo.png"></a></div>
+			<div><a class="home" href="/"><img src="img/navbarLogo.png"></a></div>
 
 			<div class="dropmenu" onclick="clickSubToogle(this)">
 				<button class="dropbtn">About Us</button>
 				<div class="dropdown-content">
 					<a href="/">My Home</a>
-					<a href="dummy.php?title=Our Senior Pastor&image=comingSoon.jpg">Our Senior Pastor</a>
-					<a href="dummy.php?title=Mission and Beliefs&image=comingSoon.jpg">Mission and Beliefs</a>
-					<a href="dummy.php?title=Latest Announcement&image=comingSoon.jpg">Latest Announcement</a>
-					<a href="dummy.php?title=Special Notices&image=comingSoon.jpg">Special Notices</a>
+					<a href="menu.php?id=12">Our Senior Pastor</a>
+					<a href="menu.php?id=13">Mission and Beliefs</a>
+					<a href="menu.php?id=14">Latest Announcement</a>
+					<a href="menu.php?id=15">Special Notices</a>
 					<a href="location.php">Our Location</a>
 				</div>
 			</div> 
@@ -75,24 +84,24 @@
 			<div class="dropmenu" onclick="clickSubToogle(this)">
 				<button class="dropbtn">Our Services</button>
 				<div class="dropdown-content">
-					<a href="dummy.php?title=Ibadah Raya&image=ibadahRaya.png">Ibadah Raya</a>
-					<a href="dummy.php?title=Doa Malam&image=doaMalam.jpg">Doa Malam</a>
+					<a href="menu.php?id=21">Ibadah Raya</a>
+					<a href="menu.php?id=22">Doa Malam</a>
 				</div>
 			</div>
 
 			<div class="dropmenu" onclick="clickSubToogle(this)">
 				<button class="dropbtn">Be Connected</button>
 				<div class="dropdown-content">
-					<a href="dummy.php?title=Family Altar&image=comingSoon.jpg">Family Altar</a>
-					<a href="dummy.php?title=Upcoming Event&image=comingSoon.jpg">Upcoming Event</a>
-					<a href="dummy.php?title=Bible Study Academy&image=comingSoon.jpg">Bible Study Academy</a>
-					<a href="dummy.php?title=Menara Doa&image=comingSoon.jpg">Menara Doa</a>
-					<a href="dummy.php?title=Plan A Visit&image=comingSoon.jpg">Plan A Visit</a>
-					<a href="dummy.php?title=Youth Movement&image=comingSoon.jpg">Youth Movement</a>
-					<a href="dummy.php?title=Child Church&image=childChurch.jpg">Child Church</a>
-					<a href="dummy.php?title=WBI&image=comingSoon.jpg">WBI</a>
-					<a href="dummy.php?title=ManHood&image=comingSoon.jpg">ManHood</a>
-					<a href="dummy.php?title=ProM&image=comingSoon.jpg">ProM</a>
+					<a href="menu.php?id=31">Family Altar</a>
+					<a href="menu.php?id=32">Upcoming Event</a>
+					<a href="menu.php?id=33">Bible Study Academy</a>
+					<a href="menu.php?id=34">Menara Doa</a>
+					<a href="menu.php?id=35">Plan A Visit</a>
+					<a href="menu.php?id=36">Youth Movement</a>
+					<a href="menu.php?id=37">Child Church</a>
+					<a href="menu.php?id=38">WBI</a>
+					<a href="menu.php?id=39">ManHood</a>
+					<a href="menu.php?id=310">ProM</a>
 				</div>
 			</div>
 
@@ -100,43 +109,43 @@
 				<button class="dropbtn">Media</button>
 				<div class="dropdown-content">
 					<a href="stream.php">Live Streaming</a>
-					<a href="dummy.php?title=My News&image=comingSoon.jpg">My News</a>
-					<a href="dummy.php?title=Radio&image=comingSoon.jpg">Radio</a>
-					<a href="dummy.php?title=Media Downloads&image=comingSoon.jpg">Media Downloads</a>
-					<a href="dummy.php?title=Previous Event&image=comingSoon.jpg">Previous Event</a>
-					<a href="dummy.php?title=TV&image=comingSoon.jpg">TV</a>
+					<a href="menu.php?id=42">My News</a>
+					<a href="menu.php?id=43">Radio</a>
+					<a href="menu.php?id=44">Media Downloads</a>
+					<a href="menu.php?id=45">Previous Event</a>
+					<a href="menu.php?id=46">TV</a>
 				</div>
 			</div>
 
 			<div class="dropmenu" onclick="clickSubToogle(this)">
 				<button class="dropbtn">Social Profeets</button>
 				<div class="dropdown-content">
-					<a href="dummy.php?title=Lansia / Elderly&image=comingSoon.jpg">Lansia / Elderly</a>
-					<a href="dummy.php?title=Bedah Rumah&image=comingSoon.jpg">Bedah Rumah</a>
-					<a href="dummy.php?title=Rumah Singgah&image=comingSoon.jpg">Rumah Singgah</a>
-					<a href="dummy.php?title=Panti Asuhan&image=comingSoon.jpg">Panti Asuhan</a>
+					<a href="menu.php?id=51">Lansia / Elderly</a>
+					<a href="menu.php?id=52">Bedah Rumah</a>
+					<a href="menu.php?id=53">Rumah Singgah</a>
+					<a href="menu.php?id=54">Panti Asuhan</a>
 				</div>
 			</div>
 
 			<div class="dropmenu" onclick="clickSubToogle(this)">
 				<button class="dropbtn">Get In Touch</button>
 				<div class="dropdown-content">
-					<a href="dummy.php?title=Renungan Harian&image=comingSoon.jpg">Renungan Harian</a>
-					<a href="dummy.php?title=Prayer Request&image=comingSoon.jpg">Prayer Request</a>
-					<a href="dummy.php?title=Share A Testimony&image=comingSoon.jpg">Share A Testimony</a>
-					<a href="dummy.php?title=Contact Us&image=comingSoon.jpg">Contact Us</a>
-					<a href="dummy.php?title=Donation&image=comingSoon.jpg">Donation</a>
+					<a href="menu.php?id=61">Renungan Harian</a>
+					<a href="menu.php?id=62">Prayer Request</a>
+					<a href="menu.php?id=63">Share A Testimony</a>
+					<a href="menu.php?id=64">Contact Us</a>
+					<a href="menu.php?id=65">Donation</a>
 				</div>
 			</div>
 
 			<div class="dropmenu" onclick="clickSubToogle(this)">
 				<button class="dropbtn">Pastoral Care</button>
 				<div class="dropdown-content">
-					<a href="dummy.php?title=Pernikahan&image=pastoralCare.jpg">Pernikahan</a>
-					<a href="dummy.php?title=Kedukaan&image=pastoralCare.jpg">Kedukaan</a>
-					<a href="dummy.php?title=Kunjungan Orang Sakit&image=pastoralCare.jpg">Kunjungan Orang Sakit</a>
-					<a href="dummy.php?title=Konseling&image=pastoralCare.jpg">Konseling</a>
-					<a href="dummy.php?title=Baptis&image=pastoralCare.jpg">Baptis</a>
+					<a href="menu.php?id=71">Pernikahan</a>
+					<a href="menu.php?id=72">Kedukaan</a>
+					<a href="menu.php?id=73">Kunjungan Orang Sakit</a>
+					<a href="menu.php?id=74">Konseling</a>
+					<a href="menu.php?id=75">Baptis</a>
 				</div>
 			</div>
 
