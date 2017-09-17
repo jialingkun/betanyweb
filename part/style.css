@@ -308,13 +308,17 @@ a:hover{
 
 @media screen and (max-width: 1000px){
     .quicklinks-tab{
-        line-height: 1;
-        font-size: 13px;
+        line-height: 0.8;
+        font-size: 12px;
         padding: 5px 0px;
         width: 85px;
 
         left: 138px;
-        top: 55px;
+        top: 53px;
+    }
+
+    .sidenav{
+        top: 20%;
     }
 
     .sidenav:hover {
@@ -338,20 +342,19 @@ a:hover{
     
     border-radius: 5px;
 
-
     width: 100%;
     background-color: rgba(100,100,100,0.6);
     max-width: 200px;
     padding-top: 5px;
-    padding-bottom:5px;
+    padding-bottom:10px;
     box-shadow: 0px 5px 20px black;
 
 }
 .timer-wrapper div{
     float: left;
-    width: 24%;
+    width: 23%;
     padding: 5px 0;
-    margin: 1px;
+    margin: 1%;
     background-color: #2f2f2f;
     border-radius: 5px;
     font-size: 13px;
@@ -363,8 +366,34 @@ a:hover{
 }
 
 @media screen and (max-width: 1000px){
+    .responsive-timer{
+        background-color: white;
+    }
     .timer-wrapper{
+        background-color: white;
+        position: static;
         max-width: 400px;
+        z-index: 1;
+        box-shadow: none;
+        border-radius: none;
+        padding-bottom:30px;
+    } 
+    .timer-wrapper h5{
+        color: black;
+        font-size: 19px;
+        font-weight: 700;
+    }
+    .timer-wrapper div{
+        font-size: 15px;
+        width: 22%;
+        margin: 1%;
+    }
+
+    .timer-wrapper button{
+        font-size: 15px;
+        width: 90%;
+        font-weight: 700;
+        margin-top: 10px;
     }
 }
 
