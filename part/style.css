@@ -403,12 +403,21 @@ a:hover{
 /*menu css*/
 
 .container-menu{
-    max-width: 825px;  
+    max-width: 825px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 0 4%;
+    padding-bottom: 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    margin-top: 3%;
 }
 
 .menu-img{
     max-height: 450px;
     max-width: 100%;
+    padding: 0.5%;
+    padding-top: 2%;
 }
 
 .desc{
@@ -418,8 +427,10 @@ a:hover{
 
 @media screen and (max-width: 768px){
     .container-menu{
-        margin: auto 1%;
-        margin-bottom:50px;
+        margin: auto;
+        margin-bottom: 3%;
+        box-shadow: none;
+        border-radius: 0;
     }
 
     .desc{
@@ -430,6 +441,8 @@ a:hover{
         width: 100%;
         height: auto;
         max-height: 100%;
+        padding: 0;
+        margin: 0;
     }
 }
 

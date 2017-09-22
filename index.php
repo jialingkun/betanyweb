@@ -9,6 +9,7 @@
 	
 	.carousel-inner > .item > img {
 		margin: 0 auto;
+		max-height: 80vh;
 	}
 </style>
 
@@ -44,7 +45,7 @@
 		</div>
 
 		<div class="item">
-			<img src="img/slider3.jpg" alt="Welcome">
+			<img src="img/pastoralCare.jpg" alt="Welcome">
 		</div>
 
 		<div class="item">

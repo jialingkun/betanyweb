@@ -1,5 +1,15 @@
 <?php include 'part/header.php';?>
 
+<style>
+	.container-menu{
+		background-color: inherit;
+		color: white;
+		box-shadow: none;
+		border-radius: none;
+	}
+
+</style>
+
 <div class="container container-menu">
 <div class="title center-responsive">
 	<h1>Our Location</h1>
